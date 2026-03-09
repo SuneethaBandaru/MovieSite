@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.footer {
+  background-color: #ddd;
+  padding: 24px;
+}
+
+.content {
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
+  color: #cc2a36;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    font-size: 4cqh;
+  }
+}

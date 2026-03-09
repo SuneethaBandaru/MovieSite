@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.header {
+  background-color: #ddd;
+  padding: 24px;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  color: #cc2a36;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.subTitle {
+  color: #343436;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .headerTitle {
+    font-size: 6cqh;
+  }
+  .subTitle {
+    font-size: 3cqh;
+  }
+}

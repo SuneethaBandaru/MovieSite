@@ -1,0 +1,12 @@
+.movieContainer {
+  background: #343436;
+  display: grid;
+  gap: 16px;
+  grid-template: auto / 1fr;
+  padding: 16px;
+}
+@media screen and (min-width: 768px) {
+  .movieContainer {
+    grid-template: 1fr 1fr / 1fr 1fr;
+  }
+}
