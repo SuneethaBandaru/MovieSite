@@ -23,3 +23,9 @@
   color: #343436;
   font-size: 1.4rem;
 }
+
+.movieImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
